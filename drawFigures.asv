@@ -1,0 +1,86 @@
+function isDrawn = drawFigures(ResCell,X,Y)
+%drawFigures draws the related pictures
+velocitiesTime = ResCell.velocitiesTime;
+velos = zeros(16,size(velocitiesTime,2));
+diffMeshTime = ResCell.diffMeshTime;
+timeseries = ResCell.timeseries;
+diffsTime = ResCell.diffsTime;
+agentPosTime = ResCell.agentPosTime;
+%% plot the norm of velocities
+for i_time = 1:size(velocitiesTime,2)
+    velos(:,i_time) = velocitiesTime{};
+end
+
+%% plot the err 
+figure 
+grid on
+hold on
+plot(timeseries,diffsTime);
+
+%% plot the errMesh at certain time steps
+figure
+subplot(3,2,1)
+grid on 
+mesh(X,Y,diffMeshTime{1})
+view([90,90])
+
+subplot(3,2,2)
+grid on 
+mesh(X,Y,diffMeshTime{2})
+view([90,90])
+
+subplot(3,2,3)
+grid on 
+mesh(X,Y,diffMeshTime{3})
+view([90,90])
+
+subplot(3,2,4)
+grid on 
+mesh(X,Y,diffMeshTime{4})
+view([90,90])
+
+subplot(3,2,5)
+grid on 
+mesh(X,Y,diffMeshTime{5})
+view([90,90])
+
+subplot(3,2,6)
+grid on 
+mesh(X,Y,diffMeshTime{6})
+view([90,90])
+
+isDrawn = true;
+
+%% plot the positions of agents
+figure
+subplot(2,2,1)
+hold on
+grid on
+for i=1:size(agentPosTime,2)
+    plot(agentPosTime{i}(1,1),agentPosTime{i}(1,2))
+    hold on
+end
+subplot(2,2,2)
+hold on
+grid on
+for i=1:size(agentPosTime,2)
+    plot(agentPosTime{i}(2,1),agentPosTime{i}(2,2))
+    hold on
+end
+subplot(2,2,3)
+hold on
+grid on
+for i=1:size(agentPosTime,2)
+    plot(agentPosTime{i}(3,1),agentPosTime{i}(3,2))
+    hold on
+end
+subplot(2,2,4)
+hold on
+grid on
+for i=1:size(agentPosTime,2)
+    plot(agentPosTime{i}(4,1),agentPosTime{i}(4,2))
+    hold on
+end
+
+end
+

@@ -1,0 +1,7 @@
+function velocities = integr( ks, derivs, agents, targets)
+%integr 计算每个agent的速度
+for 
+
+
+end
+

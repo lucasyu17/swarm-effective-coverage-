@@ -1,0 +1,22 @@
+Field:
+  size_x: 8
+  size_y: 8
+  resolution: 300
+  C_star: 10
+  k_cov: 0.2
+  k_col: 0.001
+  k_linear: 0.06
+
+
+Agents:
+  numberOfAgents: 6
+  MaxValue: 1
+  r: 0.5
+  degreeOfCostFunc: 2
+
+
+Simulation:
+  dt: 0.5
+  endTime: 1500
+  initialization:
+    resolutionMesh: 100

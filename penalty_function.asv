@@ -1,0 +1,18 @@
+function [ func_val,deriv_val ] = penalty_function( degree,diffs )
+%penalty_function cost function of the coverage task
+for i =1:size(diffs,1)
+    
+end
+end
+
+function [ func_val,deriv_val ] = penalty_functionOnOneVal( degree,x )
+%penalty_function cost function of the coverage task
+if x<=0
+    func_val = 0;
+    deriv_val = 0;
+else
+    func_val = power(x,degree);
+    deriv_val = degree*power(x,degree - 1);
+end
+
+end

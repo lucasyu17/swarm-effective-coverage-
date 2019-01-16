@@ -1,0 +1,22 @@
+function derPenalty = penalty_functionMesh( degree,diffsMesh )
+%penalty_function cost function of the coverage task
+derPenalty = size(diffsMesh);
+isPositive = diffsMesh>0;
+func_val = power(diffsMesh,degree);
+deriv_val = degree*power(x,degree - 1);
+for i_diff =1:size(diffsMesh,1)
+    [ ~,deriv_val ] = penalty_functionOnOneVal( degree,diffsMesh(i_diff) );
+    derPenalty = [derPenalty;deriv_val];
+end
+end
+
+function [ func_val,deriv_val ] = penalty_functionOnOneVal( degree,x )
+%penalty_function cost function of the coverage task
+if x<=0
+    func_val = 0;
+    deriv_val = 0;
+else
+    
+end
+
+end

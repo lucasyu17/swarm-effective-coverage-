@@ -1,0 +1,29 @@
+function [isZeroControl, ZeroVelPositions, linearVelocities] = iszerocontrol(agentPos,velocities,X,Y,linear_k)
+% if the agents enter into a situation where velocities are zeros while err
+% are not, it should be changed into a linear control law.
+ZeroVelPositions = [];
+velocities = abs(velocities(:,1)) + abs(velocities(:,2));
+isZeroControl = ~isempty(find(velocites == 0));
+if isZeroControl
+    ZeroVelPositions = find(velocites == 0);
+    [isZeroControl,MiniDistPt] = switchToLinearControl(agentPoses,ZeroVelPositions,diffs_mesh,X,Y);
+end
+end
+
+function [isZeroControl,MiniDistPt] = switchToLinearControl(agentPoses,zeroCtrlAgents,diffs_mesh,X,Y)
+for i_zeroAgent = 1:size(zeroCtrlAgents,1)
+    agent_pos = agentPoses(zeroCtrlAgents(i_zeroAgent,1),:);
+    dists = distanceSquareMesh (Point1,X,Y);
+    
+    haveErr = find(diffs_mesh>0);
+    dists = dists.*haveErr;
+    
+end
+end
+
+function s = distanceSquareMesh (Point1,X,Y)
+%X与Y是相同维度，返回值：每一个对应位置(x,y)上与Point1的距离值平方
+s = zeros(size(X));
+s = power(Point1(1,1)-X,2)+power(Point1(1,2)-Y,2);
+end
+

@@ -1,0 +1,14 @@
+function diffs = diffCurTargetMesh( C_star,agents,targets,MaxValue,r )
+[X,Y] = meshgrid(targets(:,1),targets(:,2));
+
+objective = ones(size(X)).*C_star;
+eff = zeros(size(X));
+for i_agent =1:size(agents,1)
+    [i_eff,~] = A_circularMesh(agents(i_agent,:),targets,MaxValue,r);
+    eff = eff + i_eff;
+end
+diff
+isPositive = diffs>0;
+diffs = diffs.*isPositive;
+
+end
