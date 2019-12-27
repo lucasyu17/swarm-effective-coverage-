@@ -1,0 +1,1406 @@
+scan 1
+battery_check 50
+correct_ip
+1=0TQZG9SED004UG
+*>takeoff
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  -27  20  0 30 
+delay 10
+*>go  -36  20  0 30 
+delay 10
+*>go  -43  20  0 30 
+delay 10
+*>go  -48  20  0 30 
+delay 10
+*>go  -51  20  0 30 
+delay 10
+*>go  -126  20  0 30 
+delay 10
+*>go  -123  20  0 30 
+delay 10
+*>go  -38  20  0 30 
+delay 10
+*>go  -40  20  0 30 
+delay 10
+*>go  -51  20  0 30 
+delay 10
+*>go  -52  20  0 30 
+delay 10
+*>go  -53  20  0 30 
+delay 10
+*>go  -54  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -51  20  0 30 
+delay 10
+*>go  -42  20  0 30 
+delay 10
+*>go  -30  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  21  20  0 30 
+delay 10
+*>go  23  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  25  20  0 30 
+delay 10
+*>go  25  20  0 30 
+delay 10
+*>go  25  20  0 30 
+delay 10
+*>go  25  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  -53  20  0 30 
+delay 10
+*>go  -37  20  0 30 
+delay 10
+*>go  -37  20  0 30 
+delay 10
+*>go  -43  20  0 30 
+delay 10
+*>go  -31  20  0 30 
+delay 10
+*>go  -31  20  0 30 
+delay 10
+*>go  -30  20  0 30 
+delay 10
+*>go  -30  20  0 30 
+delay 10
+*>go  -39  20  0 30 
+delay 10
+*>go  -40  20  0 30 
+delay 10
+*>go  -29  20  0 30 
+delay 10
+*>go  -23  20  0 30 
+delay 10
+*>go  -31  20  0 30 
+delay 10
+*>go  -21  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  -35  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  -25  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -25  0  0 30 
+delay 10
+*>go  -25  0  0 30 
+delay 10
+*>go  -25  0  0 30 
+delay 10
+*>go  -24  0  0 30 
+delay 10
+*>go  -23  0  0 30 
+delay 10
+*>go  -21  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  -27  0  0 30 
+delay 10
+*>go  -29  0  0 30 
+delay 10
+*>go  -30  0  0 30 
+delay 10
+*>go  -57  0  0 30 
+delay 10
+*>go  -59  0  0 30 
+delay 10
+*>go  -61  0  0 30 
+delay 10
+*>go  -64  0  0 30 
+delay 10
+*>go  -66  0  0 30 
+delay 10
+*>go  -69  0  0 30 
+delay 10
+*>go  -72  0  0 30 
+delay 10
+*>go  -75  0  0 30 
+delay 10
+*>go  -39  0  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  -43  0  0 30 
+delay 10
+*>go  -59  20  0 30 
+delay 10
+*>go  -33  20  0 30 
+delay 10
+*>go  -32  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  -37  20  0 30 
+delay 10
+*>go  -20  20  0 30 
+delay 10
+*>go  -20  20  0 30 
+delay 10
+*>go  -42  20  0 30 
+delay 10
+*>go  -48  20  0 30 
+delay 10
+*>go  -53  20  0 30 
+delay 10
+*>go  -27  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  -21  20  0 30 
+delay 10
+*>go  -43  20  0 30 
+delay 10
+*>go  -47  20  0 30 
+delay 10
+*>go  -51  20  0 30 
+delay 10
+*>go  -54  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -57  20  0 30 
+delay 10
+*>go  -29  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  -20  20  0 30 
+delay 10
+*>go  -42  20  0 30 
+delay 10
+*>go  -45  20  0 30 
+delay 10
+*>go  -49  20  0 30 
+delay 10
+*>go  -52  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -57  20  0 30 
+delay 10
+*>go  -57  20  0 30 
+delay 10
+*>go  -57  20  0 30 
+delay 10
+*>go  -57  20  0 30 
+delay 10
+*>go  -57  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -56  20  0 30 
+delay 10
+*>go  -54  20  0 30 
+delay 10
+*>go  -47  20  0 30 
+delay 10
+*>go  -35  20  0 30 
+delay 10
+*>go  -24  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  21  20  0 30 
+delay 10
+*>go  23  20  0 30 
+delay 10
+*>go  25  20  0 30 
+delay 10
+*>go  26  20  0 30 
+delay 10
+*>go  26  20  0 30 
+delay 10
+*>go  25  20  0 30 
+delay 10
+*>go  25  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  24  20  0 30 
+delay 10
+*>go  23  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  -21  20  0 30 
+delay 10
+*>go  -26  20  0 30 
+delay 10
+*>go  -32  20  0 30 
+delay 10
+*>go  -37  20  0 30 
+delay 10
+*>go  -54  20  0 30 
+delay 10
+*>go  -73  20  0 30 
+delay 10
+*>go  -69  20  0 30 
+delay 10
+*>go  -60  20  0 30 
+delay 10
+*>go  -59  20  0 30 
+delay 10
+*>go  -58  20  0 30 
+delay 10
+*>go  -57  20  0 30 
+delay 10
+*>go  -55  20  0 30 
+delay 10
+*>go  -50  20  0 30 
+delay 10
+*>go  -41  20  0 30 
+delay 10
+*>go  -29  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  20  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  0  20  0 30 
+delay 10
+*>go  -100  0  0 30 
+delay 10
+*>go  -101  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  -20  0  0 30 
+delay 10
+*>go  -20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  -21  0  0 30 
+delay 10
+*>go  -21  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  -56  0  0 30 
+delay 10
+*>go  -57  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  20  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>go  0  0  0 30 
+delay 10
+*>land

@@ -7,11 +7,17 @@ r = 0.5;
 r_communication = 3 * r;
 epsilon = 0.3;
 
+Results = {};
+Results.timeseries = 0:dt:endTime;
+Results.init_positions = zeros(number_agent,2);
+
 resolution_field = 4;
 number_agent = 5;
 targetFieldSize = [8,8];
 senseRanges = r.*ones(number_agent,1);
 agentPositions = agents_init(number_agent,targetFieldSize,senseRanges);
+agentInitPosition = agentPositions;
+Results.init_positions = agentInitPosition;
 targetinit = targets_init(targetFieldSize,resolution_field);
 % velocities_buffer = zeros(number_agent,2);
 
@@ -29,16 +35,15 @@ total_capacity = trapz(agentGrids(:,2),trapz(agentGrids(:,1),Effects_mesh,2));
 %% define the target coverage C_star
 C_star = total_capacity*10;
 % coverage guidance
-k_cov = 0.22*ones(number_agent,1);
+k_cov = 0.23*ones(number_agent,1);
 % collision avoidance
-k_col = 0.0005*ones(number_agent,1); 
+k_col = 0.008*ones(number_agent,1); 
 %deadlock linear coef
-k_linear = 0.08;
+k_linear = 0.07;
 %% calculate the difference between current and target coverage
 dt = 0.5;
-endTime = 900;
-Results = {};
-Results.timeseries = 0:dt:endTime;
+endTime = 700;
+
 Results.diffsTime = zeros(1,endTime/dt);
 Results.agentPosTime = cell(1,endTime/dt);
 Results.diffMeshTime = cell(1,6);
@@ -61,24 +66,65 @@ y = meshTargetField(:,2);
 timeshares = floor(endTime / 6);
 isDeadLock = false;
 
+trj_positions = zeros(endTime/dt+1,number_agent*2);
+trj_velocities = zeros(endTime/dt+1,number_agent*2);
+%%
 figure
+title('覆盖任务初始�?')
+line([-4,-4],[-4,4], 'LineWidth', 1.5, 'Color', 'k')
+hold on
+line([-4,4],[4,4], 'LineWidth', 1.5, 'Color', 'k')
+line([4,4],[4,-4], 'LineWidth', 1.5, 'Color', 'k')
+line([4,-4],[-4,-4], 'LineWidth', 1.5, 'Color', 'k')
+
+% for i_agent = 1:number_agent
+%     t=deg2rad(0:360);
+%     x_circle=(r*cos(t)+agentPositions(i_agent,1));
+%     y_circle=(r*sin(t)+agentPositions(i_agent,2));
+% 
+%     plot(x_circle,y_circle);hold on;
+%     fill(x_circle,y_circle,'b')
+% %         plot(agentPositions(i_agent,1),agentPositions(i_agent,2),'o','linewidth',2.0,'fill','b')
+% %         lgs{1,i_agent} = num2str(i_agent);
+%     hold on
+% end
+%%
+figure
+count = 0;
+agent_last_pos = agentPositions;
 for time = 0:dt:endTime
+    count = count + 1
+%     if count == 2
+%         keyboard
+%     end
     if time > endTime/2
         k_cov = 0.5*ones(number_agent,1);
     end
 %     hold off
 %     lgs = cell(1,number_agent);
     for i_agent = 1:number_agent
+%         trj_positions(count,(i_agent-1)*2+1) = agentPositions(i_agent,1);
+%         trj_positions(count,i_agent*2) = agentPositions(i_agent,2));
         t=deg2rad(0:360);
         x_circle=(r*cos(t)+agentPositions(i_agent,1));
         y_circle=(r*sin(t)+agentPositions(i_agent,2));
-
+        
         plot(x_circle,y_circle);hold on;
-        fill(x_circle,y_circle,'b')
+        fill(x_circle,y_circle,'b','edgecolor','k','Linewidth',2.0);hold on
+        
+        u=deg2rad(0:360);
+        x_circle_last = (r*cos(u)+agent_last_pos(i_agent,1));
+        y_circle_last = (r*sin(u)+agent_last_pos(i_agent,2)); 
+        
+        plot(x_circle_last,y_circle_last);hold on;
+        fill(x_circle_last,y_circle_last,'b','edgecolor','b'); hold on
+        
 %         plot(agentPositions(i_agent,1),agentPositions(i_agent,2),'o','linewidth',2.0,'fill','b')
 %         lgs{1,i_agent} = num2str(i_agent);
         hold on
     end
+    
+    agent_last_pos = agentPositions;
 %     legend(lgs)
     xlim([-targetFieldSize(1)/2-0.2,targetFieldSize(2)/2+0.2])
     ylim([-targetFieldSize(1)/2-0.2,targetFieldSize(2)/2+0.2])
@@ -88,19 +134,20 @@ for time = 0:dt:endTime
 %     grid on
     pause(0.005)
     
-    if diffs/(C_star * targetFieldSize(1,1) * targetFieldSize(1,2)) <= 1e-4 % coverage task completed
+    if diffs/(C_star * targetFieldSize(1,1) * targetFieldSize(1,2)) <= 1e-6 % coverage task completed
         Results.diffsTime(1,i_time) = diffs;
         break;
     else
         if isDeadLock % Condition 1
         	if sum(abs(min_dist) < r*r*0.5) < number_agent % not all arrived
-                velocities = -k_linear .* (agentPositions - MiniDistPts);
+                aa = 1;
+                velocities = -k_linear .* (agentPositions - MiniDistPts) ./ sqrt(sum((agentPositions - MiniDistPts).*(agentPositions - MiniDistPts), 2));
 %                 indx_nonzero = find(sum(abs(velocities),2)>0);
 %                 for i_indx = indx_nonzero(1:end)
 %                     velocities(i_indx,1) = max(velocities(i_indx,1),0.01);
 %                     velocities(i_indx,2) = max(velocities(i_indx,2),0.01);
 %                 end 
-                velocities = CollisionAvoid( velocities, k_col/2, agentPositions, r*1.5, r*1.1 );
+                velocities = CollisionAvoid( velocities, k_col/2, agentPositions, r*2.5, r*1.1 );
                 velocities = min(max(velocities,-0.2/dt),0.2/dt);
                 agentPositions = agentPositions + velocities.*dt;
                 agentPositions(:,1) = min(max(agentPositions(:,1),-targetFieldSize(1,1)/2),targetFieldSize(1,1)/2);
